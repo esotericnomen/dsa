@@ -1,0 +1,60 @@
+Change lof file to learn CMake
+Change Log :
+    Version: 0.0.2
+            .
+            |-- build
+            |   |-- build.sh
+            |   |-- hello_world
+            |   `-- libhelloworld.so
+            |-- change.log
+            |-- CMakeLists.txt
+            |-- include
+            |   `-- hello.h
+            |-- src
+            |   `-- hello.c
+            `-- test
+                `-- main.c
+
+Build :
+    Build directory used to build executable
+
+build.sh :
+    Shell script to invoke cmake and clean up the intermediate files
+
+change.log :
+    Changelog file having list of versions and changes
+
+CMakeLists.txt : 
+    CMakeLists.txt file used by cmake
+    Generates a executable hello
+
+include :
+    Directory having include files
+
+src :
+    Source files for Library
+
+test :
+    Source file for executable
+-------------------------------------------------------------------------------
+    Version: 0.0.1
+        First version. 
+            .
+            |-- build
+            |   |-- build.sh
+            |-- CMakeLists.txt
+            `-- hello.c
+            
+Build :
+    Build directory used to build executable
+
+build.sh :
+    Shell script to invoke cmake and clean up the files other than executable
+
+CMakeLists.txt : 
+    CMakeLists.txt file used by cmake
+    Generates a executable hello
+
+hello.c
+    C Program source file to print hello world
+-------------------------------------------------------------------------------
